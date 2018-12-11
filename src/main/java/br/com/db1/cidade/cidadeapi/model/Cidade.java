@@ -1,12 +1,16 @@
-package br.com.db1.cidade.cidadeapi;
+package br.com.db1.cidade.cidadeapi.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name="cidade")
 public class Cidade {
 	
 	@Id
