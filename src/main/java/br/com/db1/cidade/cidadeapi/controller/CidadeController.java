@@ -11,7 +11,7 @@ import br.com.db1.cidade.cidadeapi.model.Uf;
 import br.com.db1.cidade.cidadeapi.service.CidadeService;
 
 @RestController
-@RequestMapping("/api/cudades")
+@RequestMapping("/api/cidades")
 public class CidadeController {
 	
 	@Autowired
