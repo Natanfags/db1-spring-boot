@@ -36,10 +36,6 @@ public class Cidade {
 		return id;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
-	}
-
 	public String getNome() {
 		return nome;
 	}
@@ -51,10 +47,4 @@ public class Cidade {
 	public Uf getUf() {
 		return uf;
 	}
-
-	public void setUf(Uf uf) {
-		this.uf = uf;
-	}
-	
-	
 }
