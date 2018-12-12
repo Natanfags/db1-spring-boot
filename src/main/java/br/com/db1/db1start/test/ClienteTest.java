@@ -20,7 +20,7 @@ public class ClienteTest {
 	@Test
 	public void deveRetornarNomeMinusculo() {
 		Cliente cliente = new Cliente ("MAIKO CUNHA");
-		
+		 
 		String nomeMinusculo = cliente.trataNome(TratamentoNome.LOWERCASE);
 		
 		Assert.assertEquals("maiko cunha", nomeMinusculo);
